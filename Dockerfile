@@ -4,7 +4,7 @@ FROM clojure:lein-2.6.1-alpine
 
 MAINTAINER Christian Johansen "christian@kodemaker.no"
 
-ENV DATOMIC_VERSION 0.9.5544
+ENV DATOMIC_VERSION 0.9.5661
 ENV DATOMIC_HOME /opt/datomic-pro-$DATOMIC_VERSION
 
 RUN apk add --no-cache unzip curl
